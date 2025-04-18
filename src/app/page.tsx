@@ -1,7 +1,8 @@
 import Image from "next/image";
+import { HeroSection } from "./_sections/HeroSection";
 
 export default function Home() {
-  return <div>
-    
+  return <div className="overflow-x-hidden max-w-screen">
+    <HeroSection />
   </div>;
 }
