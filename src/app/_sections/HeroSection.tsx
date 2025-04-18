@@ -1,5 +1,5 @@
 import Noise from "@/Animations/Noise/Noise";
-import { ArrowDown, ArrowLeft, ArrowRight, Shield } from "lucide-react";
+import { ArrowDown, ArrowRight, Shield } from "lucide-react";
 
 export const HeroSection = () => {
   return (

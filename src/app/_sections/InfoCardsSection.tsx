@@ -3,7 +3,6 @@
 import React from "react";
 import Image from "next/image";
 import Noise from "@/Animations/Noise/Noise";
-import { ArrowRight } from "lucide-react";
 
 const InfoCardsSection = () => {
   return (
