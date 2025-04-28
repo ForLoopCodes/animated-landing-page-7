@@ -1,6 +1,8 @@
 import { HeroSection } from "./_sections/HeroSection";
 import { Header } from "@/components/header";
 import InfoCardsSection from "./_sections/InfoCardsSection";
+import FeaturedSection from "./_sections/FeaturedSection";
+import PricingSection from "./_sections/PricingSection";
 
 export default function Home() {
   return (
@@ -8,6 +10,8 @@ export default function Home() {
       <Header />
       <HeroSection />
       <InfoCardsSection />
+      <FeaturedSection />
+      <PricingSection />
     </div>
   );
 }
