@@ -159,7 +159,6 @@ const PricingSection = () => {
           </div>{" "}
           <div className="md:col-span-4 relative rounded-3xl overflow-hidden min-h-[300px] p-0.5 bg-gradient-to-b from-white/50 via-black to-black relative">
             <div className="w-full h-full flex flex-col items-start justify-start z-10 rounded-3xl overflow-hidden bg-black relative">
-              
               <div className="antialiased w-[100%] h-[100%] absolute inset opacity-30 z-1 contrast-[2]">
                 <CanvasRevealEffect
                   animationSpeed={3}
@@ -312,8 +311,6 @@ const PricingSection = () => {
           </div>{" "}
           <div className="md:col-span-4 relative rounded-3xl overflow-hidden min-h-[300px] p-0.5 bg-gradient-to-b from-white/20 via-black to-black relative">
             <div className="w-full h-full flex flex-col items-start justify-start z-10 rounded-3xl overflow-hidden bg-black relative">
-           
-
               <div className="antialiased w-full justify-center  items-center absolute inset -top-[50vh] blur-2xl z-1 contrast-[2]">
                 <div className="absolute w-[120%] left-[-40%] h-[100vh] bg-radial from-blue-900/30 saturate-[2] rounded-full blur-3xl to-transparent -top-[25vh]"></div>{" "}
               </div>
