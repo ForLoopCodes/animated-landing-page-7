@@ -9,7 +9,7 @@ const InfoCardsSection = () => {
   return (
     <section
       id="products"
-      className="py-24 mt-16 bg-black text-white relative overflow-hidden"
+      className="pb-24 mt-4 bg-black text-white relative overflow-hidden"
     >
       <div className="gap-6 my-8 sm:mt-12 flex justify-center items-center h-full">
         <div className="bg-white/40 bg-gradient-to-b from-blue-900/70 to-white rounded-xl w-1 h-8 rounded-full"></div>

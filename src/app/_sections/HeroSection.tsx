@@ -31,7 +31,7 @@ export const HeroSection = () => {
         <div className="absolute w-full h-[100vh] bg-radial from-[#1FDAFF] saturate-[10] via-transparent to-transparent -top-[20vh]"></div>
         <div className="absolute w-full h-[100vh] bg-radial from-[#1FDAFF] saturate-[10] via-transparent to-transparent -top-[20vh]"></div>
       </div>
-      <div className="w-full flex flex-col items-center justify-center pt-[14vh] pb-20 z-10 px-10 relative ">
+      <div className="w-full flex flex-col items-center justify-center pt-[14vh] z-10 px-10 relative ">
         <p className="text-sm bg-white bg-gradient-to-b from-blue-900/50 to-blue-900/20 text-black shadow shadow-black/90 shadow-md gap-4 rounded-xl px-4 py-0.5 rounded-full transition-transform duration-300 group-hover:scale-105">
           Total Security Solutions
         </p>
