@@ -15,8 +15,8 @@ export default function Home() {
       <EmpoweringSection />
       <InfoCardsSection />
       <FeaturedSection />
-      <PricingSection />
       <FinalSection />
+      <PricingSection />
       <Footer />
     </div>
   );

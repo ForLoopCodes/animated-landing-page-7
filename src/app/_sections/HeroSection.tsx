@@ -4,7 +4,10 @@ import { ArrowDown, ArrowRight, Shield } from "lucide-react";
 
 export const HeroSection = () => {
   return (
-    <section className="w-[94vw] h-screen rounded-4xl overflow-hidden bg-gradient-to-b from-[#043BD6] via-[#043BD6] via-black via-black via-black to-black text-white flex mt-30 mx-auto flex-col items-center text-center relative px-4 sm:px-6 lg:px-8 z-1">
+    <section
+      id="home"
+      className="w-[94vw] h-screen rounded-4xl overflow-hidden bg-gradient-to-b from-[#043BD6] via-[#043BD6] via-black via-black via-black to-black text-white flex mt-6 mx-auto flex-col items-center text-center relative px-4 sm:px-6 lg:px-8 z-1"
+    >
       <Noise
         patternSize={100}
         patternScaleX={1}

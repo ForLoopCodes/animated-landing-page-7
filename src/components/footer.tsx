@@ -2,22 +2,44 @@ import { Shield, Twitter, Linkedin, Github } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="w-full bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
-      <div className="w-[94vw] mx-auto ">
+    <footer className="relative w-full bg-black text-white py-12 px-4 sm:px-6 lg:px-8">
+      {/* Blurred Blue Patches */}
+      <div className="absolute inset-0 z-[-1]">
+        <div
+          className="absolute w-[80%] h-[80%] left-[10%] top-[10%] blur-[100px] opacity-30"
+          style={{
+            background: "radial-gradient(circle, #043BD6, transparent)",
+          }}
+        ></div>
+        <div
+          className="absolute w-[40%] h-[40%] left-[60%] top-[30%] blur-[80px] opacity-20"
+          style={{
+            background: "radial-gradient(circle, #1FDAFF, transparent)",
+          }}
+        ></div>
+        <div
+          className="absolute w-[30%] h-[30%] left-[20%] top-[70%] blur-[60px] opacity-25"
+          style={{
+            background: "radial-gradient(circle, #043BD6, transparent)",
+          }}
+        ></div>
+      </div>
+
+      <div className="w-[94vw] mx-auto">
         {/* Introductory Section */}
         <div className="flex w-full justify-between items-start mb-8 w-5/12">
           <div className="mb-8 text-center sm:text-left flex items-center justify-center sm:justify-start">
             <Shield className="w-6 h-6 text-blue-500 mr-4" />
             <div>
-              <p className="text-xl font-semibold">Work async stay aligned.</p>
+              <p className="text-xl">Work async stay aligned.</p>
             </div>
           </div>
           {/* Links Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 mb-8 w-7/12">
             {/* Product Column */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Product</h3>
-              <ul className="space-y-2">
+              <h3 className="text-lg mb-4">Product</h3>
+              <ul className="space-y-4">
                 <li>
                   <a
                     href="#"
@@ -46,8 +68,8 @@ const Footer = () => {
             </div>
             {/* Company Column */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Company</h3>
-              <ul className="space-y-2">
+              <h3 className="text-lg mb-4">Company</h3>
+              <ul className="space-y-4">
                 <li>
                   <a
                     href="#"
@@ -76,8 +98,8 @@ const Footer = () => {
             </div>
             {/* Support Column */}
             <div>
-              <h3 className="text-lg font-semibold mb-4">Support</h3>
-              <ul className="space-y-2">
+              <h3 className="text-lg mb-4">Support</h3>
+              <ul className="space-y-4">
                 <li>
                   <a
                     href="#"
