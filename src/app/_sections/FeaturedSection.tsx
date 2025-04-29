@@ -1,17 +1,28 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Noise from "@/Animations/Noise/Noise";
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { motion } from "framer-motion";
-import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { Book, BookOpen } from "lucide-react";
+import { BookOpen } from "lucide-react";
 
 const FeaturedSection = () => {
   return (
     <section className="py-24 bg-black text-white relative overflow-hidden">
+      <div className="container text-start pb-36 max-w-8xl mx-auto px-4">
+        <div className="mb-4">
+          <span className="text-sm px-4 py-2 bg-blue-800/20 rounded-lg font-medium">
+            Why Teachly
+          </span>
+        </div>
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium mt-2 leading-[1.2em]">
+          More Than A Platform
+          <br /> A Partner For Your Growth
+        </h2>
+        <p className="text-lg md:text-xl text-white/70 max-w-2xl mt-6">
+          With Teachly&apos;s Elite plan, you can focus on creating content and
+          connecting with your audience. We handle the rest.
+        </p>
+      </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-8 xl:grid-cols-12 gap-6 max-w-8xl mx-auto">
           {/* First card - full width */}

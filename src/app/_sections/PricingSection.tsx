@@ -1,17 +1,19 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
-import Noise from "@/Animations/Noise/Noise";
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { motion } from "framer-motion";
-import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
-import { ArrowRight, Book, BookOpen } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 const PricingSection = () => {
   return (
     <section className="py-24 bg-black text-white relative overflow-hidden">
+      <div className="w-[140vw] left-[-20vw] bg-[#043BD6] blur-[100px] absolute h-80 top-72 z-1"></div>
+
+      <div className="relative text-center pb-36 z-10">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium mt-2 leading-[1.2em]">
+          Plans for every creator.
+        </h2>
+      </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-8 xl:grid-cols-12 gap-6 max-w-8xl mx-auto">
           {/* First card - full width */}
@@ -162,7 +164,7 @@ const PricingSection = () => {
               <div className="antialiased w-[100%] h-[100%] absolute inset opacity-30 z-1 contrast-[2]">
                 <CanvasRevealEffect
                   animationSpeed={3}
-                  containerClassName="bg-black"
+                  containerClassName="bg-black scale-y-[2]"
                   colors={[
                     [0, 0, 100],
                     [0, 0, 150],
@@ -172,6 +174,7 @@ const PricingSection = () => {
               </div>
               <div className="antialiased w-full justify-center  items-center absolute inset -top-[50vh] blur-2xl z-1 contrast-[2]">
                 <div className="absolute w-[120%] left-[-40%] h-[100vh] bg-radial from-[#043BD6] saturate-[2] rounded-full blur-3xl to-transparent -top-[25vh]"></div>{" "}
+                <div className="absolute w-[120%] left-[-70%] h-[100vh] bg-radial from-[#043BD6] saturate-[2] rounded-full blur-3xl to-transparent top-[10vh]"></div>{" "}
               </div>
 
               <div className="w-full h-full flex flex-col items-start justify-start pt-[4vh] pb-10 z-10 px-10 relative">

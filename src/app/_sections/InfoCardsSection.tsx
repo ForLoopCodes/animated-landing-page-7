@@ -1,16 +1,26 @@
 "use client";
 
 import React from "react";
-import Image from "next/image";
 import Noise from "@/Animations/Noise/Noise";
-import { AuroraBackground } from "@/components/ui/aurora-background";
-import { motion } from "framer-motion";
-import { CardSpotlight } from "@/components/ui/card-spotlight";
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
+import { TrendingUp } from "lucide-react";
 
 const InfoCardsSection = () => {
   return (
-    <section className="py-24 bg-black text-white relative overflow-hidden">
+    <section className="py-24 mt-16 bg-black text-white relative overflow-hidden">
+      <div className="gap-6 my-8 sm:mt-12 flex justify-center items-center h-full">
+        <div className="bg-white/40 bg-gradient-to-b from-blue-900/70 to-white rounded-xl w-1 h-8 rounded-full"></div>
+        <button className="bg-white font-semibold bg-gradient-to-b from-blue-900/70 to-white shadow shadow-inner shadow-white drop-shadow drop-shadow-blue-600/70 drop-shadow-xl px-6 py-3 text-black flex justify-center items-center gap-4 rounded-full">
+          <TrendingUp className="w-8 h-8 translate-x-0 transition-all duration-200 rounded-full text-blue-700" />
+        </button>{" "}
+        <div className="bg-white/40 bg-gradient-to-b from-blue-900/70 to-white rounded-xl w-1 h-8 rounded-full"></div>
+      </div>
+      <div className="text-center pb-36">
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-medium mt-2 leading-[1.2em]">
+          Build, Launch and Scale
+          <br /> Superfast.
+        </h2>
+      </div>
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6 max-w-6xl mx-auto">
           {/* First card - full width */}
